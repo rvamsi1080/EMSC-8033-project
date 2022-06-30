@@ -10,8 +10,8 @@ def test_documentation(doc_type = str):
     
     
 def test_datasets(my_data_len = 5, my_data_type = tuple):
-    dataset_1 = 'EN.4.2.2.f.analysis.c14.202104.nc'
-    dataset_2 = 'EN.4.2.2.f.analysis.c14.192204.nc'
+    dataset_1 = 'Datasets/EN.4.2.2.f.analysis.c14.202104.nc'
+    dataset_2 = 'Datasets/EN.4.2.2.f.analysis.c14.192204.nc'
     data = load_datasets(dataset_1, dataset_2)
     data_type = type(data)
     data_len = len(data)
